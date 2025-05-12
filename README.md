@@ -19,34 +19,35 @@ This Python project scrapes the table of the largest companies in the United Sta
 ---
 
 
-## 🚀 How to Run
+📦 Installation and Setup
+1. Install Required Dependencies
+Ensure you have Python installed, then run the following command in your terminal to install the necessary packages:
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/Web_Scraping.git
-   cd Web_Scraping
-Install Dependencies:
 bash
 Copy
 Edit
 pip install requests beautifulsoup4 pandas
-Run the Script:
+2. Run the Script
+Execute the scraping script with:
 
 bash
 Copy
 Edit
 python scraper.py
-Output: A CSV file named Output.csv will be saved to:
+3. Output Location
+After successful execution, the script will generate a file named Output.csv, saved at:
 
 swift
 Copy
 Edit
 C:/Users/kusha/OneDrive/Desktop/Projects/Python/Web_Scraping/
-✅ Features
-Automatically fetches the most recent data from Wikipedia.
-Parses and cleans the HTML table content.
-Converts it into a structured CSV file.
-Easily customizable for other Wikipedia tables.
+✅ Key Features
+Real-Time Data Extraction: Automatically retrieves the latest table of top U.S. companies by revenue from Wikipedia.
+Clean Data Parsing: Efficiently processes HTML content and extracts structured data.
+CSV Export: Saves the data in a clean, analysis-ready .csv format.
+Flexible Design: Easily adaptable for scraping other structured Wikipedia tables or similar web sources.
+
+
 
 📌 Sample Output Columns
 Rank
