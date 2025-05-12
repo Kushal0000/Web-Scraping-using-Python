@@ -1,66 +1,70 @@
-# 📊 Web Scraping: Largest U.S. Companies by Revenue
+🕸️ Web Scraper: Top U.S. Companies by Revenue
+This Python-based web scraper extracts the latest list of the largest companies in the United States by revenue from Wikipedia. It parses the table data, structures it into a clean format, and exports it to a .csv file for further analysis or reporting.
 
-This Python project scrapes the table of the largest companies in the United States by revenue from Wikipedia, structures the data using `pandas`, and exports it into a CSV file.
+📁 Project Overview
+Source: Wikipedia - Largest U.S. Companies by Revenue
 
----
+Output: A CSV file containing company data such as rank, name, industry, revenue, and more
 
-## 🌐 Source URL
-[Wikipedia: List of Largest U.S. Companies by Revenue](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue)
+Use Cases: Data analysis, reporting, automation, and business intelligence
 
----
+🚀 Features
+🔄 Live Scraping: Automatically fetches the most recent data from Wikipedia
 
-## 🧰 Technologies Used
+🧹 Clean Parsing: Uses BeautifulSoup to parse and sanitize HTML table contents
 
-- `Python 3.x`
-- `requests` – to fetch webpage content
-- `BeautifulSoup` – to parse and extract HTML content
-- `pandas` – to clean and export data to CSV
+📊 Data Structuring: Transforms raw data into a structured pandas DataFrame
 
----
+📁 CSV Export: Saves output to a clean .csv file for analysis or storage
 
+🛠️ Customizable: Easily extendable to scrape other tables with similar structures
 
-📦 Installation and Setup
-1. Install Required Dependencies
-Ensure you have Python installed, then run the following command in your terminal to install the necessary packages:
+⚙️ Installation
+Prerequisites
+Make sure you have Python 3.x installed on your system.
 
+Install Dependencies
 bash
 Copy
 Edit
 pip install requests beautifulsoup4 pandas
-2. Run the Script
-Execute the scraping script with:
+▶️ How to Run
+Clone or download the repository
+
+Navigate to the project directory
+
+Run the script using:
 
 bash
 Copy
 Edit
 python scraper.py
-3. Output Location
-After successful execution, the script will generate a file named Output.csv, saved at:
+After execution, the output will be saved as:
 
-swift
+text
 Copy
 Edit
-C:/Users/kusha/OneDrive/Desktop/Projects/Python/Web_Scraping/
-✅ Key Features
-Real-Time Data Extraction: Automatically retrieves the latest table of top U.S. companies by revenue from Wikipedia.
-Clean Data Parsing: Efficiently processes HTML content and extracts structured data.
-CSV Export: Saves the data in a clean, analysis-ready .csv format.
-Flexible Design: Easily adaptable for scraping other structured Wikipedia tables or similar web sources.
+C:/Users/kusha/OneDrive/Desktop/Projects/Python/Web_Scraping/Output.csv
+📂 Output Structure
+The output CSV includes the following columns (depending on the live table format):
 
-
-
-📌 Sample Output Columns
 Rank
+
 Name
+
 Industry
-Revenue (USD millions)
-Profit (USD millions)
+
+Revenue
+
 Employees
+
 Headquarters
 
-🧠 Use Cases
-Academic projects
-Market research
-Data analysis & visualization
-Investment insights
+Notes (if available)
+
+🛠️ Customization Tips
+To scrape a different Wikipedia table, update the url and inspect the desired <table> index
+
+Adjust column headers or parsing logic to fit the new structure
+
 
