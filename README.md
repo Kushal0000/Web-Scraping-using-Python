@@ -18,18 +18,6 @@ This Python project scrapes the table of the largest companies in the United Sta
 
 ---
 
-## 📁 Project Structure
-
-Web_Scraping/
-├── scraper.py # Main script to scrape and export data
-├── Output.csv # Final output file (generated after running script)
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
----
 
 ## 🚀 How to Run
 
