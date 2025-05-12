@@ -32,10 +32,11 @@ Make sure you have Python 3.x installed on your system.
 
 ```bash
 pip install requests beautifulsoup4 pandas
-
 ▶️ How to Run
 Clone or download the repository
+
 Navigate to the project directory
+
 Run the script using:
 
 bash
@@ -43,6 +44,7 @@ Copy
 Edit
 python scraper.py
 After execution, the output will be saved as:
+
 swift
 Copy
 Edit
@@ -51,17 +53,34 @@ C:/Users/kusha/OneDrive/Desktop/Projects/Python/Web_Scraping/Output.csv
 The output CSV may include the following columns (based on current Wikipedia data):
 
 Rank
+
 Name
+
 Industry
+
 Revenue
+
 Employees
+
 Headquarters
+
+Notes (if available)
 
 🛠️ Customization Tips
 To scrape a different Wikipedia table, update the url and the table index
 
 Modify column parsing logic to fit new structures
 
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+📄 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Kushal Patel
+📧 Email Me
+🔗 LinkedIn
 
 
 
