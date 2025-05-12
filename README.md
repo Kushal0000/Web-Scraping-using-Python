@@ -49,38 +49,22 @@ swift
 Copy
 Edit
 C:/Users/kusha/OneDrive/Desktop/Projects/Python/Web_Scraping/Output.csv
+
 📂 Output Structure
 The output CSV may include the following columns (based on current Wikipedia data):
 
 Rank
-
 Name
-
 Industry
-
 Revenue
-
 Employees
-
 Headquarters
-
-Notes (if available)
 
 🛠️ Customization Tips
 To scrape a different Wikipedia table, update the url and the table index
-
 Modify column parsing logic to fit new structures
 
-🤝 Contributing
-Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
-📄 License
-This project is licensed under the MIT License.
-
-🙋‍♂️ Author
-Kushal Patel
-📧 Email Me
-🔗 LinkedIn
 
 
 
